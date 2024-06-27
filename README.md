@@ -13,8 +13,8 @@
 1. このリポジトリをクローンします。
 
     ```bash
-    git clone <リポジトリURL>
-    cd <リポジトリディレクトリ>
+    git clone https://github.com/Ojoxux/Team-ONY-Backend.git
+    cd Team-ONY-Backend
     ```
 
 2. 必要なGoモジュールをインストールします。
@@ -26,7 +26,7 @@
 3. `.env`ファイルをプロジェクトのルートディレクトリに作成し、OpenAI APIキーを設定します。
 
     ```env
-    OPENAI_API_KEY=your_openai_api_key
+    OPENAI_API_KEY=<your_openai_api_key>
     ```
 
 ## 実行
