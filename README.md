@@ -33,9 +33,7 @@
 
 以下のコマンドでアプリケーションを起動します。
 
-    ```bash
     go run main.go
-    ```
 
 アプリケーションはデフォルトで`localhost:3000`で起動します。
 
@@ -47,17 +45,14 @@
 
 #### リクエスト例
 
-    ```json
     {
         "model": "text-davinci-003",
         "prompt": "Say this is a test",
         "max_tokens": 7
     }
-    ```
 
 #### レスポンス例
 
-    ```json
     {
         "id": "cmpl-1234567890",
         "object": "text_completion",
@@ -77,7 +72,6 @@
             "total_tokens": 12
         }
     }
-    ```
 
 ## 注意点
 
