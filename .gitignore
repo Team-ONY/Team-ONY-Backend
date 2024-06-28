@@ -24,7 +24,7 @@ vendor/
 *.log
 
 # Environment variables
-.env
+*.env
 
 # Dependency directories
 node_modules/
